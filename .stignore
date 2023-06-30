@@ -1,0 +1,100 @@
+// ╔══════════════════════════════════════╗
+// ║ Directory-specific files/directories ║
+// ╚══════════════════════════════════════╝
+// [ include directory-specific stuff here ]
+
+// ╔══════════════════════════════════╗
+// ║ Operating system generated files ║
+// ╚══════════════════════════════════╝
+// ┌─────────────┐
+// │ Apple macOS │
+// └─────────────┘
+(?d).DS_Store
+(?d).localized
+(?d)._*
+(?d).Icon*
+(?d).fseventsd
+(?d).Spotlight-V100
+(?d).DocumentRevisions-V100
+(?d).TemporaryItems
+(?d).Trashes
+(?d).Trash-1000
+(?d).iCloud
+
+// ┌──────────────────┐
+// │ GNU/Linux & UN*X │
+// └──────────────────┘
+// (?d).directory
+(?d).Trash-*
+
+// ┌───────────────────┐
+// │ Microsoft Windows │
+// └───────────────────┘
+(?d)desktop.ini
+(?d)ehthumbs.db
+(?d)Thumbs.db
+(?d)$RECYCLE.BIN
+(?d)System Volume Information
+
+// ┌──────────┐
+// │ QNAP QTS │
+// └──────────┘
+(?d).AppleDB
+(?d).@_thumb
+(?d).@__thumb
+
+// ┌──────────────┐
+// │ Synology DSM │
+// └──────────────┘
+(?d)@eaDir
+
+// ╔═════════════════════════════╗
+// ║ Application generated files ║
+// ╚═════════════════════════════╝
+// ┌────────────────────────┐
+// │ Firefox & Chrom(ium│e) │
+// └────────────────────────┘
+*.part
+*.crdownload
+
+// ┌─────┐
+// │ Git │
+// └─────┘
+.git
+
+// ┌──────────┐
+// │ Org Roam │
+// └──────────┘
+org-roam.db
+org-roam.db-journal
+
+// ┌──────────────────┐
+// │ Microsoft Office │
+// └──────────────────┘
+~*
+
+// ┌───────────────────────────┐
+// │ Parallels Desktop for Mac │
+// └───────────────────────────┘
+.parallels-vm-directory
+
+// ┌────────────────────────────┐
+// │ Temporary and backup files │
+// └────────────────────────────┘
+*.temporary
+*.tmp
+*._mp
+*.old
+*.syd
+*.dir
+*.gid
+*.chk
+*.dmp
+*.nch
+.*.swp
+*~
+
+// ┌─────┐
+// │ Vim │
+// └─────┘
+*.*.sw[a-p]
